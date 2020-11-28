@@ -1,0 +1,115 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+
+figcaption{font-size: 14px; font-weight: 300; display: block; padding-top: 5px}
+#last-container{padding-bottom: 0px}
+
+.header{padding: 10px 40px; overflow-x: hidden;}
+.header h1{font-size: 60px; font-weight: 700; color: #707070; margin: 0}
+.header h5{font-size: 55px; font-weight: 300; color: #333; margin: 0}
+
+.header__container{display: flex;  padding: 80px 0 80px 0; }
+.header__container p{font-size: 2.06vw; font-weight: 100; color: #333; line-height: 3.08vw; margin-left: 50px; width: 70%; min-width: 40%}
+
+.header__container__imgContainer{width: 568px}
+.header__container__imgContainer img{max-width: 100%; display: block;}
+
+
+.main h3{padding: 0 40px; font-size: 40px; font-weight: 700; color: #D48181}
+.main__section-1{background: #181D1B; padding: 50px 0px; margin-top: 30px}
+
+
+.main_section-1_container{padding: 0 40px 50px 40px}
+.main_section-1_container h5{font-size: 30px; font-weight: 700; color: #25C1C7}
+.main_section-1_container p{font-size: 22px; font-weight: 300; color: #FFF; padding-left: 20px}
+
+
+.main__section-2{display: flex; justify-content: space-between; align-items: flex-start; padding: 50px 50px; overflow-x: hidden;}
+.main__section-2 img{max-width: 100%; display: block;}
+.main__section-2__imgContainer1{width: 548px; margin-right: 50px}
+.main__section-2__imgContainer2{width: 548px}
+.main__section-3{background: #8D8B6D; padding: 50px 0px;}
+
+.main_section-3_container{padding: 0 40px 50px 40px}
+.main_section-3_container h5{font-size: 30px; font-weight: 700; color: #FFF}
+.main_section-3_container p{font-size: 22px; font-weight: 300; color: #000; padding-left: 20px}
+
+.footer{padding: 50px 40px 10px 40px}
+.footer p{font-weight: 100; font-style: italic; font-size: 2.06vw; line-height: 3.08vw; }
+.footer span{font-weight: 100; font-size: 26px;padding-top: 200px; color: #707070; text-align: center; display: block;}
+.footer a{text-decoration: none; font-weight: 300}
+
+
+@media screen and (max-width: 1024px){
+
+  .header h1{font-size: 55px;}
+  .header h5{font-size: 40px;}
+
+  .header__container{flex-direction: column-reverse; align-items: flex-start; justify-content: center; padding: 50px 0 40px 0}
+
+  .header__container p{padding-bottom: 50px; font-size: 26px; margin-left: 0px; width: 100%; line-height: 42px}
+
+  .main__section-2{display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 50px 50px}
+  .main__section-2__imgContainer1{margin-bottom: 50px; padding: 0px 0 20px 0; margin-right: 0px}
+
+  .footer p{font-size: 26px; line-height: 42px;}
+  .footer span{font-size: 25px}
+
+}
+@media screen and (max-width: 736px){
+
+
+  .header h1{font-size: 45px;}
+  .header h5{font-size: 35px;}
+
+  .header__container__imgContainer{width: 460px}
+
+  .header__container p{padding-bottom: 50px; font-size: 22px; line-height: 32px}
+
+
+  .main h3{font-size: 30px;}
+  .main__section-1{margin-top: 20px}
+  .main_section-1_container p{font-size: 18px}
+  .main_section-1_container h5{font-size: 26px}
+  .main__section-2__imgContainer1{width: 460px}
+  .main__section-2__imgContainer2{width: 460px}
+  .main__section-2 img{width: 460px}
+
+  .main_section-3_container p{font-size: 18px}
+  .main_section-3_container h5{font-size: 26px}
+
+  .footer p{font-size: 22px; line-height: 32px;}
+  .footer span{font-size: 18px; padding-top: 150px}
+
+}
+
+@media screen and (max-width: 500px){
+
+   figcaption{font-size: 12px}
+  .header{padding: 10px 20px}
+  .header h1{font-size: 35px;}
+  .header h5{font-size: 28px;}
+
+  .header__container__imgContainer{width: 280px}
+
+  .header__container p{padding-bottom: 50px; font-size: 18px; line-height: 28px}
+
+
+  .main h3{font-size: 25px; padding: 0 20px}
+  .main__section-1{margin-top: 20px;}
+  .main_section-1_container{padding: 0 20px 50px 20px}
+  .main_section-1_container p{font-size: 16px}
+  .main_section-1_container h5{font-size: 24px}
+  .main__section-2 img{width: 280px}
+
+  .main__section-2__imgContainer1{width: 280px}
+  .main__section-2__imgContainer2{width: 280px}
+  .main_section-3_container{padding: 0 20px 50px 20px}
+  .main_section-3_container p{font-size: 16px}
+  .main_section-3_container h5{font-size: 24px}
+
+  .footer{padding: 50px 20px 10px 20px}
+  .footer p{font-size: 18px; line-height: 28px;}
+  .footer span{font-size: 16px; padding-top: 150px}
+
+}
